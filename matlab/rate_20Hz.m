@@ -1,4 +1,4 @@
-path = '.';
+path = '../data/';
 edges = 0 : 1e-1 : 15;
 bnsz = edges(2) - edges(1);
 file = ["D1 spike times - 20Hz", "D1-20Hz-wZD"; "GPe-PV spike times - spiketimes_20Hz", "GPe-20Hz-withZD"];
