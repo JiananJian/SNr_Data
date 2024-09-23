@@ -1,4 +1,4 @@
-path = '.'; file="GPe-20Hz-withZD"; %file="D1-20Hz-wZD";
+path = '../data/'; file="GPe-20Hz-withZD"; %file="D1-20Hz-wZD";
 T = readtable(fullfile(path, file));
 A = table2array(T(2 : end, :));
 
