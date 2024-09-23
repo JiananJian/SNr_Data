@@ -19,18 +19,18 @@ for i = 1 : length(files)
 end
 
 
-%% wZD
+%% wZD both GPe and D1
 path = '../data'; 
 files = ["D1-wZD", "GPe-wZD"];  
 N = zeros(2, 100);
-figure(1); clf; hold on; 
+figure(2); clf; hold on; 
 for i = 1 : length(files)
     file = files(i);
     A = readmatrix(fullfile(path, file), 'NumHeaderLines', 1); 
     A(A >= 2) = nan;
     a = A(2 : end, :) - A(1 : end - 1, :);
     dx = 2; edges = 0: dx : 200; 
-    N(2, :) = histcounts(a(:), edges * 1e-3);
+    N(i, :) = histcounts(a(:), edges * 1e-3);
 end
 N = sum(N);
     h = bar(edges(1 : end - 1), N/sum(N)/dx, 'histc'); h.EdgeColor = 'none'; h.FaceColor = "#0072BD";
