@@ -1,5 +1,5 @@
 # SNr_data  
-Data processing and visualization scripts in Matlab
+Data processing and visualization scripts in Matlab.
 
 baseline.m: studies the baseline recording "SNr cell firing baseline".  
 baseline_isi.m: generates pre-stimulation baseline ISI distributions.  
