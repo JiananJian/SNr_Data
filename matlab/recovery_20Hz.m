@@ -1,5 +1,5 @@
 %% rate recovery
-path = '.';
+path = '../data/';
 freq = [20, 10, 5]; n = freq(1)/freq(3);
 file = ["D1 spike times - ", "GPe-PV spike times - spiketimes_"];
 stim = ["D1", "GPe"];
