@@ -1,4 +1,4 @@
-path = '.';
+path = '../data/';
 edges = (0 : 0.005 : 1) / 5;
 bnsz = edges(2) - edges(1);
 freq = [20, 10, 5]; n = length(freq);
