@@ -1,5 +1,11 @@
 # SNr_data  
-Data processing and visualization scripts in Matlab  
+Data processing and visualization scripts in Matlab
+
+baseline.m: studies the baseline recording "SNr cell firing baseline".  
+baseline_isi.m: generates pre-stimulation baseline ISI distributions.  
+baseline_raster.m: compares the pre-stimulation baseline raster plots between with ZD and without ZD. 
+baseline_v2.m: compares the first post-stim and the last pre-stim spiketime distributions with and without stimulation.  
+baseline_v3.m: compares the first post-stim and the last pre-stim spiketime distributions from data and from prediction based on ISI distribution.  
 
 cumulative_plots.m: generates eCDFs of spiketimes and other useful graphs.  
 raster_plots.m: generates the rastor plot and spiketime histogram of a selected data file.  
