@@ -1,4 +1,4 @@
-path = '.';
+path = '../data/';
 freq = [20, 10, 5]; n = length(freq);
 file = ["D1 spike times - ", "GPe-PV spike times - spiketimes_"];
 stim = ["D1", "GPe"];
